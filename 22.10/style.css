@@ -1,0 +1,81 @@
+* {
+    font-family: 'Open Sans';
+}
+
+/* #top_vinzari {
+    background-color: #EEF5FF;
+    text-align: center;
+    width: 1020 px;
+    height: 275px;
+    border-radius: 5px;
+    padding-left: 650px;
+} */
+
+#contact_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fbox_1 {
+    float: right;
+}
+
+#galerie_foto {
+    text-align: center;
+}
+
+.center_position {
+    text-align: center;
+    font-size: 18px;
+}
+
+.text_prim {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont {
+    background-color: #EEF5FF;
+    width: 50px;
+    height: 60px;
+    margin: 10px 0 5px 5px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px ;
+}
+
+.pagina_principala{
+    text-align: center;
+    background-color: #EEF5FF;
+    width: 1280 wh;
+    height: 10 hw;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    
+}
+
+.feedback_style{
+    text-align: center;
+    background-color: #EEF5FF;
+
+
+}
+
+.pagina_principala {
+    text-align: center;
+    width: 1280 wh;
+    height: 10 hw;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    
+}
+
+.bot_feedback {
+    text-align: center;
+}
+
+
+.lawinfo {
+    text-align: center;
+}
+
+
