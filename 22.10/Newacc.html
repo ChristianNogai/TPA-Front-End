@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creaza un cont</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style_ac.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <form>
+                <div class="new_user_connect">
+                    <h1>Creează un cont</h1>
+                    <h3>Introdu-ți numele</h3>
+                    <input type="text" placeholder="Prenumele" minlength="3" required>
+                    <br><br>
+                    <input type="text" placeholder="Numele de familie" minlength="3" required>
+                    <br><br> <input type="submit">
+                    <br><br>
+
+                    <h3>Informații elementare</h3>
+                    <h4>Introdu ziua de naștere și sexul</h4>
+
+                    <label for="date_hb"> Selecteaza ziua de nastere</label> <br>
+                    <input id="date_hb" type="date" required>
+                    <br><br>
+                    <input type="submit">
+                    <br><br>
+
+
+                    <h3>Gen</h3>
+                    <label for="man">Barbat</label>
+                    <input id="man" name="gen" type="radio">
+
+                    <label for="wmn">Femeie</label>
+                    <input id="wmn" name="gen" type="radio">
+
+                    <label for="unknown">Prefer sa nu spun</label>
+                    <input id="unknown" name="gen" type="radio">
+                    <br><br>
+                    <input type="submit">
+                    <br><br>
+
+                    <h3>Alege numele de utilizator</h3>
+
+                    <input name="username" id="user_name1" type="text" placeholder="Alege un nume de utilizator"
+                        minlength="3" maxlength="20" required>
+                    <br><br>
+                    <input name="username" id="user_name2" type="text" placeholder="Re-Scrie numele de utilizator"
+                        minlength="3" maxlength="20" required>
+                    <br><br>
+                    <label for="username"><input type="submit"></label>
+                    <br><br>
+
+                    <h3>Creează o parolă puternică</h3>
+                    <h4>Creează o parolă puternică cu un amestec de litere, cifre și simboluri</h4>
+
+                    <input type="text" id="password_1" name="password_ac" placeholder="Introdu o parola puternica"
+                        minlength="3" maxlength="20" required> <br><br>
+                    <input type="text" id="password_2" name="password_ac" placeholder="Re-Scrie Parola" minlength="3"
+                        maxlength="20" required> <br><br>
+                    <input type="checkbox" id="afisare" value="afisare_parola" name="password_ac">
+                    <label for="afisare">Afișează parola</label> <br><br>
+                    <label for="password_ac"><input type="submit"></label>
+                </div>
+            </form>
+        </nav>
+    </header>
+</body>
+
+</html>

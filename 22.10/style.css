@@ -1,0 +1,157 @@
+* {
+    font-family: 'Open Sans';
+}
+
+/* Media qeries */
+
+
+
+/* Media qery pentru telefoane mobile */
+/* (max-width) maxim putin 500 px */
+@media (max-width:499px) {
+
+
+}
+
+
+/* Media qery pentru tablete */
+/* (min-width) cel putin 500 px */
+@media (min-width:500px) {
+
+
+}
+
+/* Media qery pentru tablete mode landscape */
+@media (min-width:800px) {
+    
+
+}
+
+/* Media qery pentru laptopuri */
+@media (min-width:1200px) {
+
+
+}
+
+/* Media qery pentru ecrane mari */
+@media (min-width:1800px) {
+
+
+}
+
+
+#top_vinzari {
+
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    list-style-type: none;
+}
+
+#menu {
+    background-color: gray;
+    width: 100%;
+    height: 80px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+#menu_list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 28px;
+    color: white;
+}
+
+.menu_item {
+    cursor: pointer;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+.menu_item {
+    color: lightgrey;
+}
+
+
+#contact_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fbox_1 {
+    float: right;
+}
+
+#galerie_foto {
+    text-align: center;
+}
+
+.center_position {
+    text-align: center;
+    font-size: 18px;
+}
+
+.text_prim {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cont {
+    background-color: #EEF5FF;
+    width: 50px;
+    height: 60px;
+    margin: 10px 0 5px 5px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px ;
+}
+
+.pagina_principala{
+    text-align: center;
+    background-color: #EEF5FF;
+    width: 1280 wh;
+    height: 10 hw;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    
+}
+
+.feedback_style{
+    text-align: center;
+    background-color: #EEF5FF;
+
+
+}
+
+.pagina_principala {
+    text-align: center;
+    width: 1280 wh;
+    height: 10 hw;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    
+}
+
+.bot_feedback {
+    text-align: center;
+}
+
+
+.lawinfo {
+    text-align: center;
+}
+
